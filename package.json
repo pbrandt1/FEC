@@ -1,0 +1,36 @@
+{
+  "name": "fec",
+  "version": "1.0.0",
+  "description": "Streaming forward error correction.",
+  "main": "lib/fec.js",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "devDependencies": {
+    "diff": "^1.0.8",
+    "should": "^4.1.0"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pbrandt1/FEC.git"
+  },
+  "keywords": [
+    "Hamming(8",
+    "4)",
+    "FEC",
+    "Forward",
+    "Error",
+    "Correction"
+  ],
+  "author": "Peter Brandt <peter.m.brandt@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pbrandt1/FEC/issues"
+  },
+  "homepage": "https://github.com/pbrandt1/FEC"
+}

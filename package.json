@@ -1,5 +1,5 @@
 {
-  "name": "fec",
+  "name": "fec-stream",
   "version": "1.0.0",
   "description": "Streaming forward error correction.",
   "main": "lib/fec.js",
@@ -20,12 +20,9 @@
     "url": "https://github.com/pbrandt1/FEC.git"
   },
   "keywords": [
-    "Hamming(8",
-    "4)",
+    "Hamming(8,4)",
     "FEC",
-    "Forward",
-    "Error",
-    "Correction"
+    "stream"
   ],
   "author": "Peter Brandt <peter.m.brandt@gmail.com>",
   "license": "MIT",

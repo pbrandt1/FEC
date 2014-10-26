@@ -6,10 +6,10 @@ Node is all about I/O, so this might help someone who was trying to do I/O over 
 
 ## Usage
 ```
-npm install fec
+npm install fec-stream
 ```
 ```js
-var fec = require('fec');
+var fec = require('fec-stream');
 var encoder = new fec.Encoder({method: fec.methods.hamming84});
 var decoder = new fec.Decoder({method: fec.methods.hamming84});
 readableStream.pipe(encoder).pipe(decoder).pipe(writableStream);

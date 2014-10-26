@@ -59,7 +59,7 @@ describe('fec.Encoder() -- Hamming(8,4)', function() {
   });
 
   it('should work for big files', function(done) {
-    var enc = new fec.Encoder();
+    var enc = new fec.Encoder({method: fec.methods.hamming84});
     fs.createReadStream(getFilePath('popsci1900.txt'))
       .pipe(enc)
       .pipe(fs.createWriteStream(getFilePath('popsci1900.out')))
@@ -83,7 +83,7 @@ describe('fec.Decoder() -- Hamming(8,4)', function() {
   });
 
   it('should work for big files', function(done) {
-    var decoder = new fec.Decoder();
+    var decoder = new fec.Decoder({method: fec.methods.hamming84});
     decoder.should.be.ok;
 
     fs.createReadStream(getFilePath('popsci1900.out'))

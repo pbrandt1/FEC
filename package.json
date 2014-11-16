@@ -11,7 +11,9 @@
     "diff": "^1.0.8",
     "should": "^4.1.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "readable-stream": "^1.0.33"
+  },
   "scripts": {
     "test": "mocha"
   },
